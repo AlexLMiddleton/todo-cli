@@ -1,0 +1,20 @@
+{
+  "name": "todo-cli-alexmiddleton",
+  "version": "0.5.1",
+  "description": "A handy app for devs to track todo items within a project/repo.  Todos saved in a JSON file within the project.",
+  "main": "todo.js",
+  "bin": {
+    "todo": "bin/todo-cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "todo"
+  ],
+  "author": "Alex Middleton",
+  "license": "ISC",
+  "dependencies": {
+    "ramda": "^0.25.0"
+  }
+}
